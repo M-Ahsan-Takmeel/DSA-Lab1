@@ -1,5 +1,5 @@
 #include <iostream>
-#include "find_indices.h"
+#include "task_3_function.h"
 
 int main() {
     std::cout << "=== Running Specified Test Cases ===\n\n";
