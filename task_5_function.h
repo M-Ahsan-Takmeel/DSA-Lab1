@@ -1,5 +1,5 @@
-#ifndef PASCALS_TRIANGLE_H
-#define PASCALS_TRIANGLE_H
+#ifndef TASK_5_FUNCTION_H
+#define TASK_5_FUNCTION_H
 using namespace std;
 inline int** generatePascalsTriangle(int n) 
 {
