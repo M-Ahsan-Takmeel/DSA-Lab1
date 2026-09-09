@@ -1,28 +1,27 @@
-#ifndef FIND_INDICES_H
-#define FIND_INDICES_H
-
+#ifndef TASK_3_FUNCTION_H
+#define TASK_3_FUNCTION_H
 #include <iostream>
-
+using namespace std;
 // Implementation function: loops through a plain array and prints matching indices
 inline void printIndices(const int arr[], int size, int target) {
     bool found = false;
 
-    for (int i = 0; i < size; ++i) {
-        if (arr[i] == target) {
-            std::cout << i << " ";
+    for (int i = 0; i < size; ++i) 
+    {
+        if (arr[i] == target) 
+        {
+            cout << i << " ";
             found = true;
         }
     }
 
-    if (!found) {
-        std::cout << "None";
+    if (!found) 
+    {
+        cout << "None";
     }
-    std::cout << "\n";
+    cout << "\n";
 }
-
-#endif // FIND_INDICES_H
+#endif
     printIndices(numbers, size, target);
-    // Output: Indices: 1 3 5 
-
     return 0;
 }
