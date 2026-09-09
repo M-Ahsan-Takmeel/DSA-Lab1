@@ -15,13 +15,14 @@ inline void printIndices(const int arr[], int size, int target) {
         }
     }
 
-    if (!found) 
+    if (size == 0) 
     {
-        cout << "None";
+        cout << "Empty array";
+    }
+    else if (!found) 
+    {
+        cout << "Key not present";
     }
     cout << "\n";
 }
 #endif
-    printIndices(numbers, size, target);
-    return 0;
-}

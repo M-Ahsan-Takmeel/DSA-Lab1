@@ -18,7 +18,7 @@ int main() {
     }
     // Test Case 3: Empty array
     {
-        int arr[0] = {};
+        const int* arr = nullptr;
         int size = 0;
         cout << "Test 3 (Empty array): ";
         printMode(arr, size);
